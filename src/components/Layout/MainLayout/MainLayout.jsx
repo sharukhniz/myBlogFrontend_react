@@ -10,7 +10,7 @@ function MainLayout() {
     <div className={layoutStyle.main_layout}>
       <div className={layoutStyle.container}>
         <div className={layoutStyle.header}>
-          <Header name={"MY BLOG"} />
+          <Header name={"MY BLOG"} className={layoutStyle.headerName}/>
           <p>
             Welcome to the blog of <span class={layoutStyle.headTag}>unknown</span>
           </p>
