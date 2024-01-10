@@ -10,24 +10,24 @@ function MainLayout() {
     <div className={layoutStyle.main_layout}>
       <div className={layoutStyle.container}>
         <div className={layoutStyle.header}>
-          <Header name={"MY BLOG"} className={layoutStyle.headerName}/>
+          <Header name={"MY BLOG"} className={layoutStyle.headerName} />
           <p>
-            Welcome to the blog of <span class={layoutStyle.headTag}>unknown</span>
+            Welcome to the blog of{" "}
+            <span class={layoutStyle.headTag}>unknown</span>
           </p>
         </div>
         <div className={layoutStyle.blogPage}>
-            <div className={layoutStyle.blogEntry}>
-                <BlogEntry />
-            </div>
-            <div className={layoutStyle.SideLayout}>
-                <SideLayout />
-            </div>
+          <div className={layoutStyle.blogEntry}>
+            <BlogEntry />
+          </div>
+          <div className={layoutStyle.SideLayout}>
+            <SideLayout />
+          </div>
         </div>
-
       </div>
       <div className="footer">
-    <Footer />
-</div>
+        <Footer />
+      </div>
     </div>
   );
 }

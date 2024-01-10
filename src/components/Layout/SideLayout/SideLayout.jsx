@@ -3,7 +3,6 @@ import ProfileCard from "../../ProfileCard/ProfileCard";
 import PopularPostsList from "../../PostList/PopularPostsList";
 import Tags from "../../Tags/Tags";
 
-
 function SideLayout() {
   return (
     <div>

@@ -33,11 +33,9 @@ const PopularPostsList = () => {
     <div className={PostStyle.postContainer}>
       <h4>Popular Posts</h4>
       <ul className={PostStyle.postList}>
-        
-          {postsData.map((post) => (
-            <PostsItems post={post} />
-          ))}
-        
+        {postsData.map((post) => (
+          <PostsItems post={post} />
+        ))}
       </ul>
     </div>
   );

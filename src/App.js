@@ -1,13 +1,13 @@
-import React from 'react';
-import './App.css'
-import MainLayout from './components/Layout/MainLayout/MainLayout';
+import React from "react";
+import "./App.css";
+import MainLayout from "./components/Layout/MainLayout/MainLayout";
 
 function App() {
- return (
+  return (
     <div className="App">
       <MainLayout />
     </div>
- );
+  );
 }
 
 export default App;

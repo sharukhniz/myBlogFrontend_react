@@ -28,7 +28,7 @@ function Tags() {
       <div className={tagStyle.tagsBody}>
         <p className={tagStyle.tagList}>
           {tagList.map((tag) => (
-            <TagItems  tag={tag} />
+            <TagItems tag={tag} />
           ))}
         </p>
       </div>

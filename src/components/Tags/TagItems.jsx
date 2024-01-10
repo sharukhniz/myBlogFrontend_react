@@ -6,7 +6,6 @@ function TagItems({ tag }) {
     <span key={tag.id} className={tagStyle.tagsList}>
       {tag.content}
     </span>
-    
   );
 }
 
