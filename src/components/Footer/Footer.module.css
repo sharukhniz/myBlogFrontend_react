@@ -1,32 +1,39 @@
-.footerContainer{
+.footerContainer {
     background-color: #616161;
     padding: 16px;
 }
-.pagination{
+
+.pagination {
     display: flex;
     gap: 10px;
     padding-top: 16px;
 }
-.previousBtn{
+
+.previousBtn {
     border: none;
     text-align: center;
     cursor: pointer;
-    padding: 12px 24px;    color: #fff;
+    padding: 12px 24px;
+    color: #fff;
     background-color: #000;
-    
+
 }
-.nextBtn{
+
+.nextBtn {
     border: none;
     text-align: center;
     cursor: pointer;
-    padding: 12px 24px;    color: #fff;
+    padding: 12px 24px;
+    color: #fff;
     background-color: #000;
 }
-.poweredBy{
+
+.poweredBy {
     display: flex;
     gap: 5px;
-    color: #fff ;
+    color: #fff;
 }
-.poweredBy a{
+
+.poweredBy a {
     color: #fff;
 }

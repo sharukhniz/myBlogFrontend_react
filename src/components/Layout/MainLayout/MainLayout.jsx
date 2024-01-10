@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../Common/Header";
-import BlogEntry from "../../BlogEntry";
-import Footer from "../../Footer";
+import Header from "../../Common/Header";
+import BlogEntry from "../../BlogEntry/BlogEntry";
+import Footer from "../../Footer/Footer";
 import layoutStyle from "./MainLayout.module.css";
 import SideLayout from "../SideLayout/SideLayout";
 

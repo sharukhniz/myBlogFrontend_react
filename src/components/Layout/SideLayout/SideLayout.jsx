@@ -1,7 +1,7 @@
 import React from "react";
-import ProfileCard from "../../ProfileCard";
-import PopularPostsList from "../../PopularPostsList";
-import Tags from "../../Tags";
+import ProfileCard from "../../ProfileCard/ProfileCard";
+import PopularPostsList from "../../PostList/PopularPostsList";
+import Tags from "../../Tags/Tags";
 
 
 function SideLayout() {

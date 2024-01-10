@@ -1,7 +1,7 @@
 import React from "react";
 import tagStyle from "./Tags.module.css";
 
-function Tag({ tag }) {
+function TagItems({ tag }) {
   return (
     <span key={tag.id} className={tagStyle.tagsList}>
       {tag.content}
@@ -10,4 +10,4 @@ function Tag({ tag }) {
   );
 }
 
-export default Tag;
+export default TagItems;
