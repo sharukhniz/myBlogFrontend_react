@@ -1,0 +1,32 @@
+.footerContainer{
+    background-color: #616161;
+    padding: 16px;
+}
+.pagination{
+    display: flex;
+    gap: 10px;
+    padding-top: 16px;
+}
+.previousBtn{
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 12px 24px;    color: #fff;
+    background-color: #000;
+    
+}
+.nextBtn{
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 12px 24px;    color: #fff;
+    background-color: #000;
+}
+.poweredBy{
+    display: flex;
+    gap: 5px;
+    color: #fff ;
+}
+.poweredBy a{
+    color: #fff;
+}
