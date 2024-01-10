@@ -1,5 +1,6 @@
 import React from "react";
-import tagStyle from "./Tags.module.css"
+import TagItems from "./TagItems";
+import tagStyle from "./Tags.module.css";
 
 function Tags() {
   const tagList = [
@@ -11,7 +12,7 @@ function Tags() {
     { id: "6", content: "DIY" },
     { id: "7", content: "Ideas" },
     { id: "8", content: "Baby" },
-    { id: "9", content: "Family" }, 
+    { id: "9", content: "Family" },
     { id: "10", content: "News" },
     { id: "11", content: "Clothing" },
     { id: "12", content: "Shopping" },
@@ -27,9 +28,7 @@ function Tags() {
       <div className={tagStyle.tagsBody}>
         <p className={tagStyle.tagList}>
           {tagList.map((tag) => (
-            <span key={tag.id} className={tagStyle.tagsList}>
-              {tag.content}
-            </span>
+            <TagItems  tag={tag} />
           ))}
         </p>
       </div>
