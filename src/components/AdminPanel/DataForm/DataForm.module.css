@@ -1,0 +1,45 @@
+.dataForm {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+label {
+  margin-bottom: 8px;
+
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 12px 24px !important;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  border: 1px solid #ccc !important;
+  background-color: #fff;
+}
+
+button:hover {
+  background-color: #ccc !important;
+}
+
+.PreviewForm {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  word-wrap: break-word;
+
+}

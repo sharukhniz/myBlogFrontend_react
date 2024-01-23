@@ -1,0 +1,18 @@
+.mainpage {
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+
+}

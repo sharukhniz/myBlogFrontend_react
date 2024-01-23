@@ -4,8 +4,6 @@ import blogStyle from "./BlogEntry.module.css";
 const BlogItem = ({ blog }) => {
   const [expandEntry, setExpandEntry] = useState(false);
 
-
-
   const readMore = () => {
     setExpandEntry((prevExpand) => !prevExpand);
   };
@@ -21,9 +19,7 @@ const BlogItem = ({ blog }) => {
           {blog.description}, <span>{blog.createdAt.slice(0, 10)}</span>
         </h5>
         <p>
-          {expandEntry
-            ? blog.details
-            : `${blog.details.split(" ").slice(0, 10).join(" ")} ...`}
+          {expandEntry ? blog.details : `${blog.details.slice(0, 100)} ...`}
         </p>
         <div className={blogStyle.blogFooter}>
           <button className={blogStyle.readMore_btn} onClick={readMore}>

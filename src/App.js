@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import MainLayout from "./components/Layout/MainLayout/MainLayout";
+import MainRouter from "./components/AdminPanel/Routes/MainRouter";
 
 function App() {
   return (
     <div className="App">
-      <MainLayout />
+      <MainRouter />
     </div>
   );
 }
