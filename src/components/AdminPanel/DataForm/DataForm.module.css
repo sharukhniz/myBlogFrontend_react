@@ -43,3 +43,9 @@ button:hover {
   word-wrap: break-word;
 
 }
+
+#details {
+  white-space: pre-line;
+  overflow: hidden;
+  resize: none;
+}

@@ -27,11 +27,11 @@ const DataForm = () => {
       .post("http://localhost:3000/blogPage", formData)
       .then((response) => {
         console.log(response.data);
+        navigate("/");
       })
       .catch((error) => {
         console.log("An error occurred:", error);
       });
-    navigate("/");
   };
 
   return (
@@ -76,6 +76,8 @@ const DataForm = () => {
             name="details"
             onChange={handleInputChange}
             required
+            rows={5}
+            cols={10}
             value={formData.details}
           />
         </div>
